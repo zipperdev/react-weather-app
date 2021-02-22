@@ -7,69 +7,99 @@ import { MaterialCommunityIcons } from "@expo/vector-icons";
 const weatherOptions = {
     Thunderstorm: {
         iconName: "weather-ightning-rainy", 
-        gradient: ["#373B44", "#4286f4"]
+        gradient: ["#373B44", "#4286f4"], 
+        title: "Thunderstorm", 
+        subTitle: "Becareful cause Thounderstorm is here"
     }, 
     Drizzle: {
         iconName: "weather-rainy", 
-        gradient: ["#74ebd5", "#ACB6E5"]
+        gradient: ["#74ebd5", "#ACB6E5"], 
+        title: "Drizzle", 
+        subTitle: "Drizzle is on here"
     }, 
     Rain: {
         iconName: "weather-pouring", 
-        gradient: ["#0082c8", "#667db6"]
+        gradient: ["#0082c8", "#667db6"], 
+        title: "Rainy", 
+        subTitle: "It's rainy outside"
     }, 
     Snow: {
         iconName: "weather-snowy-heavy", 
-        gradient: ["#E2E2E2", "#C9D6FF"]
+        gradient: ["#E2E2E2", "#C9D6FF"], 
+        title: "Snowy", 
+        subTitle: "It's cool"
     }, 
     Atmosphere: {
         iconName: "weather-lightning", 
-        gradient: ["#a2ab58", "#636363"]
+        gradient: ["#a2ab58", "#636363"], 
+        title: "Atmosphere", 
+        subTitle: "Someones house will be burnt down"
     }, 
     Clear: {
         iconName: "weather-sunny", 
         gradient: ["#F7971E", "#FFD200"], 
-        title: "hoihoi", 
-        subTitle: "okok"
+        title: "Clear", 
+        subTitle: "You can go outside if microdust is low"
     }, 
     Clouds: {
         iconName: "weather-cloudy", 
-        gradient: ["#1c92d2", "#f2fcfe"]
+        gradient: ["#1c92d2", "#f2fcfe"], 
+        title: "Cloudy", 
+        subTitle: "It might rain I think about"
     }, 
     Haze: {
         iconName: "weather-fog", 
-        gradient: ["#232526", "#414345"]
+        gradient: ["#232526", "#414345"], 
+        title: "Hazy", 
+        subTitle: "Little bit hazy"
     }, 
     Mist: {
         iconName: "weather-fog", 
-        gradient: ["#485563", "#29323c"]
+        gradient: ["#485563", "#29323c"], 
+        title: "Mist", 
+        subTitle: "Care your lung"
     }, 
     Smoke: {
         iconName: "weather-tornado", 
-        gradient: ["#34d50", "#cbcaa5"]
+        gradient: ["#34d50", "#cbcaa5"], 
+        title: "Smoke", 
+        subTitle: "Care your lung more becareful"
     }, 
     Dust: {
         iconName: "weather-hazy", 
-        gradient: ["#666600", "#999966"]
+        gradient: ["#666600", "#999966"], 
+        title: "Dusty", 
+        subTitle: "Sorry you can't go outside"
     }, 
     Fog: {
         iconName: "weather-fog", 
-        gradient: ["#2c3e50", "#bdc3c7"]
+        gradient: ["#2c3e50", "#bdc3c7"], 
+        title: "Foggy", 
+        subTitle: "Little blindness"
     }, 
     Sand: {
         iconName: "weather-windy-variant", 
-        gradient: ["#6d6027", "#d3cbb8"]
+        gradient: ["#6d6027", "#d3cbb8"], 
+        title: "Sand", 
+        subTitle: "Keep you eyes don't hurt"
     }, 
     Ash: {
         iconName: "weather-windy-variant", 
-        gradient: ["#3C3B3F", "#605C3C"]
+        gradient: ["#3C3B3F", "#605C3C"], 
+        title: "Ash", 
+        subTitle: "-CAREFUL- Spoon of ash here"
     }, 
     Sqall: {
         iconName: "weather-windy", 
-        gradient: ["#000000", "#EB5757"]
+        gradient: ["#000000", "#EB5757"], 
+        title: "Sqall", 
+        subTitle: "It's Dusty so keep you body in the house"
     }, 
     Tornado: {
         iconName: "weather-hurricane", 
-        gradient: ["#fc4a1a", "#f7b733"]
+        gradient: ["#fc4a1a", "#f7b733"], 
+        title: "Tornado", 
+        subTitle: "-WARNING- Tornado is here"
     }
 };
 
